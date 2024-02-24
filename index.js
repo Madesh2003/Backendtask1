@@ -49,7 +49,6 @@ let customers = [
     }
 ];
 
-// Middleware to check if the server is working
 app_server.all("/app", (req, res, next) => {
     res.status(200).json({
         message: "server is working"
